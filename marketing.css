@@ -6,24 +6,24 @@ body {
 }
 
 header, nav, footer {
-    background-color: #7E57C2;
+    background-color: #9a979f;
 }
 
 header h1, nav a, .section1 h2, footer a, footer h2 {
-    color: #34008d;
+    color: #34313a;
 }
 
 nav a:hover, footer a:hover {
-    background-color: #B39DDB;
+    background-color: #9a979f;
     color: black;
 }
 
 .section1, .item-resultado, .item-erro {
-    background-color: #784ac9;
+    background-color: #9a979f;
 }
 
 .section2 button {
-    background-color: #ad8ee2;
+    background-color: #9985b9dd;
     color: #080000;
 }
 
@@ -36,18 +36,18 @@ nav a:hover, footer a:hover {
 
 html {
     scroll-behavior: smooth;
-  }
+}
 
 header {
-    display: flex;
+    display:flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
     height: 20vh;
 }
 
 .logo {
-    width: 200px;
+    width: 125px;
 }
 
 nav {
@@ -248,7 +248,7 @@ section button {
 }
 
 .item-resultado img{
-    width: 200px;
+    width: 100px;
 }
 .descricao-meta {
     color: #000000;
@@ -278,10 +278,10 @@ section button {
     font-size: 20px;
     background-color: transparent;
     border: 1px white;
-    border-top: 2px solid rgb(109, 2, 112);
-    border-left: 2px solid rgb(61, 1, 66);
-    border-right: 2px solid rgb(156, 0, 91);
-    border-bottom: 2px solid rgb(51, 9, 55);
+    border-top: 2px solid rgb(173, 164, 173);
+    border-left: 2px solid rgb(190, 178, 191);
+    border-right: 2px solid rgb(139, 103, 124);
+    border-bottom: 2px solid rgb(218, 181, 221);
     outline: none;
     border-radius: 20px;
     width: 5%;
